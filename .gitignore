@@ -1,0 +1,30 @@
+# Залежності (node_modules) для обох підпроєктів
+node_modules/
+*/node_modules/
+
+# Збірка фронтенду
+dist/
+dist-ssr/
+*.local
+
+# Логи налагодження
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+
+# Тимчасові файли редакторів та ОС
+.vscode/
+.idea/
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+*.sw?
+.DS_Store
+Thumbs.db
+
+# Змінні оточення
+.env
+.env.*
+!.env.example
